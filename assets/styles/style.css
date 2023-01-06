@@ -7,7 +7,7 @@
 .btn {
     border: none;
     border-radius: 5px;
-    padding: 15px 20px;
+    padding: 15px 25px;
     font-size: 20px;
     font-weight: 600;
 }
@@ -53,7 +53,7 @@ p {
 }
 
 .banner-btn {
-    color: white;
+    color: #ffffff;
     background-color: #F15B22;
 }
 
@@ -86,6 +86,7 @@ ul li:before {
 /* my plans section styles */
 .my-plans-container {
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .my-plans-items {
@@ -102,3 +103,69 @@ ul li:before {
     font-weight: 500;
 }
 
+/* cta section styles */
+
+.cta-container {
+    margin: auto;
+    max-width: 1050px;
+    background: linear-gradient(to right, #F15B22, transparent), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+.cta-container h2 {
+    color: #ffffff;
+}
+
+.cta-btn {
+    color: #F15B22;
+    margin-top: 10px;
+}
+
+/* footer section styles */
+.footer-container {
+    background-color: #151414;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    padding: 150px;
+}
+
+.footer-container p {
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.socials {
+    margin-top: 15px;
+}
+
+.socials a {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer-right h4 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.input-field {
+    display: block;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #151414;
+    border: 1px solid #ffffff;
+    color: #F3F3F3;
+    font-size: 18px;
+    width: 100%;
+}
+
+.subscribe-btn {
+    color: #F15B22;
+}
