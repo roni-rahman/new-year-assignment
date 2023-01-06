@@ -26,6 +26,7 @@ h4 {
 
 p {
     font-size: 16px;
+    line-height: 26px;
     color: #444343;
 }
 
@@ -77,10 +78,13 @@ ul {
 ul li {
     font-size: 16px;
     color: #444343;
+    margin-bottom: 10px;
 }
 
 ul li:before {
     content: '✓';
+    color:#16D887;
+    font-weight: 700;
 }
 
 /* my plans section styles */
@@ -152,6 +156,7 @@ ul li:before {
     font-size: 25px;
     color: #ffffff;
     margin-bottom: 25px;
+    font-weight: 600;
 }
 
 .input-field {
