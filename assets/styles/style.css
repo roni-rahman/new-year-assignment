@@ -3,13 +3,31 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
- .btn {
+
+.btn {
     border: none;
     border-radius: 5px;
     padding: 15px 20px;
     font-size: 20px;
     font-weight: 600;
- }
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+h4 {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    color: #444343;
+}
 
 /* banner section styles */
 .banner-container {
@@ -31,8 +49,6 @@
 }
 
 .banner-dsc {
-    font-size: 16px;
-    color: #444343;
     margin: 30px 0;
 }
 
@@ -40,3 +56,49 @@
     color: white;
     background-color: #F15B22;
 }
+
+/* failures section styles */
+.failures-container {
+    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.failures-dsc {
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 16px;
+    color: #444343;
+}
+
+ul li:before {
+    content: '✓';
+}
+
+/* my plans section styles */
+.my-plans-container {
+    text-align: center;
+}
+
+.my-plans-items {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin: 50px 0;
+    padding: 10px;
+}
+
+.my-plans-items p {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
