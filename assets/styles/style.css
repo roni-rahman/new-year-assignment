@@ -18,6 +18,12 @@ h2 {
     line-height: 47px;
 }
 
+h3 {
+    color: #151414;
+    font-size: 34px;
+    font-weight: 700;
+}
+
 h4 {
     color: #151414;
     font-size: 30px;
@@ -83,7 +89,7 @@ ul li {
 
 ul li:before {
     content: '✓';
-    color:#16D887;
+    color: #16D887;
     font-weight: 700;
 }
 
@@ -127,6 +133,47 @@ ul li:before {
     color: #F15B22;
     margin-top: 10px;
 }
+
+/* read my blog styles */
+.blog-container {
+    margin: 150px 0;
+}
+
+.blog-intro {
+    text-align: center;
+}
+
+.blog-intro p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+ .blog-items {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+ }
+
+ .blog-item {
+    width: 450px;
+ }
+
+ .blog-img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: -5px;
+    border-radius: 5px 5px 0 0;
+ }
+.blog-dsc {
+    background-color: #F5F5F5;
+    padding: 30px;
+    border-radius: 0 0 5px 5px;
+}
+
+.blog-dsc p {
+    margin: 20px 0;
+}
+
 
 /* footer section styles */
 .footer-container {
