@@ -88,10 +88,8 @@ ul li {
     margin-bottom: 10px;
 }
 
-ul li:before {
-    content: '✓';
+.fa-check {
     color: #16D887;
-    font-weight: 700;
 }
 
 /* my plans section styles */
